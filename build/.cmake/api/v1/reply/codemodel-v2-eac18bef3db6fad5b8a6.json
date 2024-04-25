@@ -1,0 +1,285 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "base",
+					"jsonFile" : "directory-base-Debug-664b9337acdd9e28913a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "base",
+					"targetIndexes" : 
+					[
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "object",
+					"jsonFile" : "directory-object-Debug-00c32596b5ff5024f064.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.24"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "object",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cplusplus"
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "base",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2
+					],
+					"name" : "object",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 2,
+					"id" : "1::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-1-Debug-2581f7e4e1dae2f7fffa.json",
+					"name" : "1",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "10::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-10-Debug-55f70dce3aafd7c15581.json",
+					"name" : "10",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "12::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-12-Debug-4114ec4dee6487967452.json",
+					"name" : "12",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "13::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-13-Debug-9476628f1ac48293acf2.json",
+					"name" : "13",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "14::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-14-Debug-985bb5470daff4870b2e.json",
+					"name" : "14",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "15::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-15-Debug-6d262a64f56be5c9edc8.json",
+					"name" : "15",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "16::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-16-Debug-885914c55774673e9633.json",
+					"name" : "16",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "2::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-2-Debug-24df04a82692556bfba5.json",
+					"name" : "2",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "3::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-3-Debug-6cb4c7dddcc507782ff6.json",
+					"name" : "3",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "4::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-4-Debug-bf0a8350f78ded3d2a46.json",
+					"name" : "4",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "5::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-5-Debug-ec2f78964f1260e228a2.json",
+					"name" : "5",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "6::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-6-Debug-1881b6aa2a95aa9cc099.json",
+					"name" : "6",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "7::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-7-Debug-c9ce1fe8f4a8f31489dc.json",
+					"name" : "7",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "8::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-8-Debug-f047ee1f2021dbf673e8.json",
+					"name" : "8",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "9::@5ed5358f70faf8d8af7a",
+					"jsonFile" : "target-9-Debug-9fe53ab6fb1149869d2a.json",
+					"name" : "9",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cast_type::@4506b02e7a4fef989908",
+					"jsonFile" : "target-cast_type-Debug-412ba32b663146221e07.json",
+					"name" : "cast_type",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "data_type::@4506b02e7a4fef989908",
+					"jsonFile" : "target-data_type-Debug-408696b7ec278525b029.json",
+					"name" : "data_type",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "fun_ptr::@4506b02e7a4fef989908",
+					"jsonFile" : "target-fun_ptr-Debug-a24ebeb4f44232bd8bf7.json",
+					"name" : "fun_ptr",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "keyword::@4506b02e7a4fef989908",
+					"jsonFile" : "target-keyword-Debug-a5e5195d2673697cae60.json",
+					"name" : "keyword",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "point_reference::@4506b02e7a4fef989908",
+					"jsonFile" : "target-point_reference-Debug-034ae491709b17c8ab37.json",
+					"name" : "point_reference",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/nvidia/disk/project/Learing/C-/build",
+		"source" : "/home/nvidia/disk/project/Learing/C-"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

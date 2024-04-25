@@ -1,0 +1,122 @@
+[
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o base/CMakeFiles/point_reference.dir/1_point_reference.cpp.o -c /home/nvidia/disk/project/Learing/C-/base/1_point_reference.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/base/1_point_reference.cpp",
+  "output": "base/CMakeFiles/point_reference.dir/1_point_reference.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o base/CMakeFiles/data_type.dir/2_data_type.cpp.o -c /home/nvidia/disk/project/Learing/C-/base/2_data_type.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/base/2_data_type.cpp",
+  "output": "base/CMakeFiles/data_type.dir/2_data_type.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o base/CMakeFiles/keyword.dir/3_keyword.cpp.o -c /home/nvidia/disk/project/Learing/C-/base/3_keyword.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/base/3_keyword.cpp",
+  "output": "base/CMakeFiles/keyword.dir/3_keyword.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o base/CMakeFiles/fun_ptr.dir/4_fun_ptr.cpp.o -c /home/nvidia/disk/project/Learing/C-/base/4_fun_ptr.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/base/4_fun_ptr.cpp",
+  "output": "base/CMakeFiles/fun_ptr.dir/4_fun_ptr.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o base/CMakeFiles/cast_type.dir/5_cast_type.cpp.o -c /home/nvidia/disk/project/Learing/C-/base/5_cast_type.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/base/5_cast_type.cpp",
+  "output": "base/CMakeFiles/cast_type.dir/5_cast_type.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/1.dir/1.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/1.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/1.cpp",
+  "output": "object/CMakeFiles/1.dir/1.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/2.dir/2.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/2.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/2.cpp",
+  "output": "object/CMakeFiles/2.dir/2.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/3.dir/3.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/3.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/3.cpp",
+  "output": "object/CMakeFiles/3.dir/3.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/4.dir/4.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/4.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/4.cpp",
+  "output": "object/CMakeFiles/4.dir/4.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/5.dir/5.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/5.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/5.cpp",
+  "output": "object/CMakeFiles/5.dir/5.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/6.dir/6.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/6.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/6.cpp",
+  "output": "object/CMakeFiles/6.dir/6.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/7.dir/7.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/7.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/7.cpp",
+  "output": "object/CMakeFiles/7.dir/7.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/8.dir/8.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/8.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/8.cpp",
+  "output": "object/CMakeFiles/8.dir/8.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/9.dir/9.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/9.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/9.cpp",
+  "output": "object/CMakeFiles/9.dir/9.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/10.dir/10.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/10.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/10.cpp",
+  "output": "object/CMakeFiles/10.dir/10.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/12.dir/12.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/12.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/12.cpp",
+  "output": "object/CMakeFiles/12.dir/12.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/13.dir/13.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/13.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/13.cpp",
+  "output": "object/CMakeFiles/13.dir/13.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/14.dir/14.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/14.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/14.cpp",
+  "output": "object/CMakeFiles/14.dir/14.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/15.dir/15.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/15.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/15.cpp",
+  "output": "object/CMakeFiles/15.dir/15.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/16.dir/16.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/16.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/object/16.cpp",
+  "output": "object/CMakeFiles/16.dir/16.cpp.o"
+}
+]
