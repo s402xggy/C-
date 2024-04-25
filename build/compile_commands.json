@@ -118,5 +118,11 @@
   "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o object/CMakeFiles/16.dir/16.cpp.o -c /home/nvidia/disk/project/Learing/C-/object/16.cpp",
   "file": "/home/nvidia/disk/project/Learing/C-/object/16.cpp",
   "output": "object/CMakeFiles/16.dir/16.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o template/CMakeFiles/1_template.dir/1.cpp.o -c /home/nvidia/disk/project/Learing/C-/template/1.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/template/1.cpp",
+  "output": "template/CMakeFiles/1_template.dir/1.cpp.o"
 }
 ]
