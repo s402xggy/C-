@@ -775,6 +775,37 @@ build template/1_template: CXX_EXECUTABLE_LINKER__1_template_Debug template/CMak
   TARGET_FILE = template/1_template
   TARGET_PDB = 1_template.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_template
+
+
+#############################################
+# Order-only phony target for 2_template
+
+build cmake_object_order_depends_target_2_template: phony || .
+
+build template/CMakeFiles/2_template.dir/2.cpp.o: CXX_COMPILER__2_template_unscanned_Debug /home/nvidia/disk/project/Learing/C-/template/2.cpp || cmake_object_order_depends_target_2_template
+  DEP_FILE = template/CMakeFiles/2_template.dir/2.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/2_template.dir
+  OBJECT_FILE_DIR = template/CMakeFiles/2_template.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_template
+
+
+#############################################
+# Link the executable template/2_template
+
+build template/2_template: CXX_EXECUTABLE_LINKER__2_template_Debug template/CMakeFiles/2_template.dir/2.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/2_template.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = template/2_template
+  TARGET_PDB = 2_template.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -818,6 +849,8 @@ build 16: phony object/16
 build 1_template: phony template/1_template
 
 build 2: phony object/2
+
+build 2_template: phony template/2_template
 
 build 3: phony object/3
 
@@ -872,7 +905,7 @@ build object/all: phony object/1 object/2 object/3 object/4 object/5 object/6 ob
 #############################################
 # Folder: /home/nvidia/disk/project/Learing/C-/build/template
 
-build template/all: phony template/1_template
+build template/all: phony template/1_template template/2_template
 
 # =============================================================================
 # Built-in targets
