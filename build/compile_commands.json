@@ -130,5 +130,35 @@
   "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o template/CMakeFiles/2_template.dir/2.cpp.o -c /home/nvidia/disk/project/Learing/C-/template/2.cpp",
   "file": "/home/nvidia/disk/project/Learing/C-/template/2.cpp",
   "output": "template/CMakeFiles/2_template.dir/2.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o template/CMakeFiles/4_template.dir/4.cpp.o -c /home/nvidia/disk/project/Learing/C-/template/4.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/template/4.cpp",
+  "output": "template/CMakeFiles/4_template.dir/4.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o template/CMakeFiles/5_template.dir/5.cpp.o -c /home/nvidia/disk/project/Learing/C-/template/5.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/template/5.cpp",
+  "output": "template/CMakeFiles/5_template.dir/5.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o template/CMakeFiles/6_template.dir/6_main.cpp.o -c /home/nvidia/disk/project/Learing/C-/template/6_main.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/template/6_main.cpp",
+  "output": "template/CMakeFiles/6_template.dir/6_main.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o template/CMakeFiles/6_template.dir/6.cpp.o -c /home/nvidia/disk/project/Learing/C-/template/6.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/template/6.cpp",
+  "output": "template/CMakeFiles/6_template.dir/6.cpp.o"
+},
+{
+  "directory": "/home/nvidia/disk/project/Learing/C-/build",
+  "command": "/usr/bin/aarch64-linux-gnu-g++ -g -o template/CMakeFiles/8_template.dir/8.cpp.o -c /home/nvidia/disk/project/Learing/C-/template/8.cpp",
+  "file": "/home/nvidia/disk/project/Learing/C-/template/8.cpp",
+  "output": "template/CMakeFiles/8_template.dir/8.cpp.o"
 }
 ]

@@ -26,5 +26,9 @@
 /home/nvidia/disk/project/Learing/C-/build/object/CMakeFiles/rebuild_cache.dir
 /home/nvidia/disk/project/Learing/C-/build/template/CMakeFiles/1_template.dir
 /home/nvidia/disk/project/Learing/C-/build/template/CMakeFiles/2_template.dir
+/home/nvidia/disk/project/Learing/C-/build/template/CMakeFiles/4_template.dir
+/home/nvidia/disk/project/Learing/C-/build/template/CMakeFiles/5_template.dir
+/home/nvidia/disk/project/Learing/C-/build/template/CMakeFiles/6_template.dir
+/home/nvidia/disk/project/Learing/C-/build/template/CMakeFiles/8_template.dir
 /home/nvidia/disk/project/Learing/C-/build/template/CMakeFiles/edit_cache.dir
 /home/nvidia/disk/project/Learing/C-/build/template/CMakeFiles/rebuild_cache.dir

@@ -806,6 +806,136 @@ build template/2_template: CXX_EXECUTABLE_LINKER__2_template_Debug template/CMak
   TARGET_FILE = template/2_template
   TARGET_PDB = 2_template.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 4_template
+
+
+#############################################
+# Order-only phony target for 4_template
+
+build cmake_object_order_depends_target_4_template: phony || .
+
+build template/CMakeFiles/4_template.dir/4.cpp.o: CXX_COMPILER__4_template_unscanned_Debug /home/nvidia/disk/project/Learing/C-/template/4.cpp || cmake_object_order_depends_target_4_template
+  DEP_FILE = template/CMakeFiles/4_template.dir/4.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/4_template.dir
+  OBJECT_FILE_DIR = template/CMakeFiles/4_template.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 4_template
+
+
+#############################################
+# Link the executable template/4_template
+
+build template/4_template: CXX_EXECUTABLE_LINKER__4_template_Debug template/CMakeFiles/4_template.dir/4.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/4_template.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = template/4_template
+  TARGET_PDB = 4_template.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 5_template
+
+
+#############################################
+# Order-only phony target for 5_template
+
+build cmake_object_order_depends_target_5_template: phony || .
+
+build template/CMakeFiles/5_template.dir/5.cpp.o: CXX_COMPILER__5_template_unscanned_Debug /home/nvidia/disk/project/Learing/C-/template/5.cpp || cmake_object_order_depends_target_5_template
+  DEP_FILE = template/CMakeFiles/5_template.dir/5.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/5_template.dir
+  OBJECT_FILE_DIR = template/CMakeFiles/5_template.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5_template
+
+
+#############################################
+# Link the executable template/5_template
+
+build template/5_template: CXX_EXECUTABLE_LINKER__5_template_Debug template/CMakeFiles/5_template.dir/5.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/5_template.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = template/5_template
+  TARGET_PDB = 5_template.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 6_template
+
+
+#############################################
+# Order-only phony target for 6_template
+
+build cmake_object_order_depends_target_6_template: phony || .
+
+build template/CMakeFiles/6_template.dir/6_main.cpp.o: CXX_COMPILER__6_template_unscanned_Debug /home/nvidia/disk/project/Learing/C-/template/6_main.cpp || cmake_object_order_depends_target_6_template
+  DEP_FILE = template/CMakeFiles/6_template.dir/6_main.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/6_template.dir
+  OBJECT_FILE_DIR = template/CMakeFiles/6_template.dir
+
+build template/CMakeFiles/6_template.dir/6.cpp.o: CXX_COMPILER__6_template_unscanned_Debug /home/nvidia/disk/project/Learing/C-/template/6.cpp || cmake_object_order_depends_target_6_template
+  DEP_FILE = template/CMakeFiles/6_template.dir/6.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/6_template.dir
+  OBJECT_FILE_DIR = template/CMakeFiles/6_template.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 6_template
+
+
+#############################################
+# Link the executable template/6_template
+
+build template/6_template: CXX_EXECUTABLE_LINKER__6_template_Debug template/CMakeFiles/6_template.dir/6_main.cpp.o template/CMakeFiles/6_template.dir/6.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/6_template.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = template/6_template
+  TARGET_PDB = 6_template.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 8_template
+
+
+#############################################
+# Order-only phony target for 8_template
+
+build cmake_object_order_depends_target_8_template: phony || .
+
+build template/CMakeFiles/8_template.dir/8.cpp.o: CXX_COMPILER__8_template_unscanned_Debug /home/nvidia/disk/project/Learing/C-/template/8.cpp || cmake_object_order_depends_target_8_template
+  DEP_FILE = template/CMakeFiles/8_template.dir/8.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/8_template.dir
+  OBJECT_FILE_DIR = template/CMakeFiles/8_template.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 8_template
+
+
+#############################################
+# Link the executable template/8_template
+
+build template/8_template: CXX_EXECUTABLE_LINKER__8_template_Debug template/CMakeFiles/8_template.dir/8.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = template/CMakeFiles/8_template.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = template/8_template
+  TARGET_PDB = 8_template.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -856,13 +986,21 @@ build 3: phony object/3
 
 build 4: phony object/4
 
+build 4_template: phony template/4_template
+
 build 5: phony object/5
 
+build 5_template: phony template/5_template
+
 build 6: phony object/6
+
+build 6_template: phony template/6_template
 
 build 7: phony object/7
 
 build 8: phony object/8
+
+build 8_template: phony template/8_template
 
 build 9: phony object/9
 
@@ -905,7 +1043,7 @@ build object/all: phony object/1 object/2 object/3 object/4 object/5 object/6 ob
 #############################################
 # Folder: /home/nvidia/disk/project/Learing/C-/build/template
 
-build template/all: phony template/1_template template/2_template
+build template/all: phony template/1_template template/2_template template/4_template template/5_template template/6_template template/8_template
 
 # =============================================================================
 # Built-in targets
