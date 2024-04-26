@@ -960,6 +960,65 @@ build template/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build template/rebuild_cache: phony template/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /home/nvidia/disk/project/Learing/C-/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1_stl
+
+
+#############################################
+# Order-only phony target for 1_stl
+
+build cmake_object_order_depends_target_1_stl: phony || .
+
+build stl/CMakeFiles/1_stl.dir/1.cpp.o: CXX_COMPILER__1_stl_unscanned_Debug /home/nvidia/disk/project/Learing/C-/stl/1.cpp || cmake_object_order_depends_target_1_stl
+  DEP_FILE = stl/CMakeFiles/1_stl.dir/1.cpp.o.d
+  FLAGS = -g
+  OBJECT_DIR = stl/CMakeFiles/1_stl.dir
+  OBJECT_FILE_DIR = stl/CMakeFiles/1_stl.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_stl
+
+
+#############################################
+# Link the executable stl/1_stl
+
+build stl/1_stl: CXX_EXECUTABLE_LINKER__1_stl_Debug stl/CMakeFiles/1_stl.dir/1.cpp.o
+  FLAGS = -g
+  OBJECT_DIR = stl/CMakeFiles/1_stl.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = stl/1_stl
+  TARGET_PDB = 1_stl.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build stl/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/nvidia/disk/project/Learing/C-/build/stl && /usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build stl/edit_cache: phony stl/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build stl/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /home/nvidia/disk/project/Learing/C-/build/stl && /usr/bin/cmake --regenerate-during-build -S/home/nvidia/disk/project/Learing/C- -B/home/nvidia/disk/project/Learing/C-/build
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build stl/rebuild_cache: phony stl/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build 1: phony object/1
@@ -975,6 +1034,8 @@ build 14: phony object/14
 build 15: phony object/15
 
 build 16: phony object/16
+
+build 1_stl: phony stl/1_stl
 
 build 1_template: phony template/1_template
 
@@ -1022,7 +1083,7 @@ build point_reference: phony base/point_reference
 #############################################
 # Folder: /home/nvidia/disk/project/Learing/C-/build
 
-build all: phony base/all object/all template/all
+build all: phony base/all object/all template/all stl/all
 
 # =============================================================================
 
@@ -1041,6 +1102,13 @@ build object/all: phony object/1 object/2 object/3 object/4 object/5 object/6 ob
 # =============================================================================
 
 #############################################
+# Folder: /home/nvidia/disk/project/Learing/C-/build/stl
+
+build stl/all: phony stl/1_stl
+
+# =============================================================================
+
+#############################################
 # Folder: /home/nvidia/disk/project/Learing/C-/build/template
 
 build template/all: phony template/1_template template/2_template template/4_template template/5_template template/6_template template/8_template
@@ -1052,14 +1120,14 @@ build template/all: phony template/1_template template/2_template template/4_tem
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/nvidia/disk/project/Learing/C-/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/base/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/object/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/template/CMakeLists.txt /usr/share/cmake-3.29/Modules/CMakeCInformation.cmake /usr/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.29/Modules/Platform/Linux.cmake /usr/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/nvidia/disk/project/Learing/C-/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/base/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/object/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/stl/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/template/CMakeLists.txt /usr/share/cmake-3.29/Modules/CMakeCInformation.cmake /usr/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.29/Modules/Platform/Linux.cmake /usr/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/nvidia/disk/project/Learing/C-/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/base/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/object/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/template/CMakeLists.txt /usr/share/cmake-3.29/Modules/CMakeCInformation.cmake /usr/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.29/Modules/Platform/Linux.cmake /usr/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake: phony
+build /home/nvidia/disk/project/Learing/C-/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/base/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/object/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/stl/CMakeLists.txt /home/nvidia/disk/project/Learing/C-/template/CMakeLists.txt /usr/share/cmake-3.29/Modules/CMakeCInformation.cmake /usr/share/cmake-3.29/Modules/CMakeCXXInformation.cmake /usr/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake-3.29/Modules/CMakeGenericSystem.cmake /usr/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake /usr/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU-C.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake-3.29/Modules/Compiler/GNU.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-GNU.cmake /usr/share/cmake-3.29/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake-3.29/Modules/Platform/Linux.cmake /usr/share/cmake-3.29/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake: phony
 
 
 #############################################
